@@ -1,5 +1,21 @@
 # Taller-Junit
 
+# Tabla principal
+
+| Caso de Prueba y Propósito               | Entradas de Datos | Valor Esperado | Resultado |
+| ---------------------------- | ----------------- | -------------- | --------- |
+| Probar la generación de fórmulas aleatorias        | N/A (Método estático)              | Una fórmula válida con 1-3 operaciones y números aleatorios              | Pasó      |
+| Probar la resolución de fórmulas simples (suma)   | "5+3"              | "5+3=8"            | Pasó      |
+| Probar la resolución de fórmulas simples (resta)   | "10-4"               | "10-4=6"              | Pasó      |
+| 	Probar la resolución de fórmulas simples (multiplicación)   | "8*2"               | "8*2=16"              | Pasó      |
+| 	Probar la resolución de fórmulas simples (división)   | "16/4"               | "16/4=4"              | Pasó      |
+| Probar la resolución de fórmulas con múltiples operaciones   | "5+3*2"               | "5+3*2=11"              | Pasó      |
+| Probar la resolución de fórmulas con paréntesis   | "(5+3)*2"               | "(5+3)*2=16"              | Pasó      |
+| Probar la resolución de fórmulas con división por cero   | "10/0"               | Excepción de tipo ArithmeticException              | Pasó      |
+| Probar la resolución de fórmulas con números negativos   | "-5+3"               | "-5+3=-2"              | Pasó      |
+| Probar el manejo de fórmulas inválidas  | "5++3"               | Excepción de tipo NumberFormatException o IllegalArgumentException              | Pasó      |
+
+
 # Prueba Unitaria de la Suma
 
 | Caso de Prueba               | Entradas de Datos | Valor Esperado | Resultado |
