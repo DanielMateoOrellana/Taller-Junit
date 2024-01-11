@@ -69,7 +69,7 @@ Se asegura de que la función de resta retorne el valor correcto al restar un n�
 | ---------------------------------------------------- | ----------------- | -------------- | --------- |
 | Multiplicacion Normal                                | 5,5               | 25             | Pasó      |
 | Multiplicacion entre Numeros positivos y negativos   | -2,3              | -6             | Pasó      |
-| ## Multiplicacion entre dos numeros negativos        | -4,-6             | 24             | Pasó      |
+| Multiplicacion entre dos numeros negativos        | -4,-6             | 24             | Pasó      |
 | Multiplicacion por 0                                 | 5,0               | 0              | Pasó      |
 
 ## Multiplicacion Normal 
@@ -92,6 +92,28 @@ Se asegura que la operacion entre numeros negativos de la multiplicacion funcion
 Se asegura que la operacion entre el numero cero y cualquier otro numero ya sea positivo o negativo funcione correctamente. Al multiplicar ambos numeros se espera obtener un resultado especifico. Se utilizara el metodo AsserEquals para comparar el resultado obtenido con el especificado anteriormente.
 ![image](https://github.com/DanielMateoOrellana/Taller-Junit/assets/136995519/15ea5b13-5c56-4cad-aaf4-bce242c32689)
 
+# Prueba Unitaria de la División 
+   
+| Caso de Prueba                                       | Entradas de Datos | Valor Esperado | Resultado |
+| ---------------------------------------------------- | ----------------- | -------------- | --------- |
+| División básica                                | 20,4              | 5             | Pasó      |
+| División entre 0   | 20, 5              | Error            | Pasó      |
+| División de numero negativo por positivo        | -10, 5             | -2             | Pasó      |
 
+## División Básica
 
+Se asegura que se pueda realizar una división básica, esperando un resultado exacto, dividiendo 20 para 4, que debería ser igual a 5.
 
+![image](https://github.com/DanielMateoOrellana/Taller-Junit/assets/107244270/d1c14eef-d08b-4ab3-ac07-f2d1711f45ff)
+
+## División entre 0
+
+Se asegura que se pueda dividir un numero entre 0, lo cual debería arrojar un error, y por eso usamos assertThrows().
+
+![image](https://github.com/DanielMateoOrellana/Taller-Junit/assets/107244270/b18f47f8-1062-462f-b0e9-e0348b54e04c)
+
+## División de numero negativo por positivo
+
+Se asegura que se pueda dividir un número negativo por uno positivo, se espera un resultado exacto, dividiendo –10 para 5 el resultado debería ser –2.
+
+![image](https://github.com/DanielMateoOrellana/Taller-Junit/assets/107244270/edabc5d0-9e0b-455c-961a-2dcadcc11f64)
