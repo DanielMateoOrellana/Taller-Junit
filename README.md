@@ -1,3 +1,6 @@
 # Taller-Junit
-| test | prueba |
-| 1 | 2 |
+
+| test | Prueba |
+| --- | --- |
+| `git status` | List all *new or modified* files |
+| `git diff` | Show file differences that **haven't been** staged |
