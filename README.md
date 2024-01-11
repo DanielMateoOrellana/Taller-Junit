@@ -1,6 +1,9 @@
 # Taller-Junit
 
-| test | Prueba |
-| --- | --- |
-| `git status` | List all *new or modified* files |
-| `git diff` | Show file differences that **haven't been** staged |
+# Prueba Unitaria de la Suma
+
+| Caso de Prueba | Entradas de Datos | Valor Esperado |Resultado |
+| ------------ | ------------ | ------------ |------------ |
+|  Suma Normal | 2,3    | 5   |Pasó  |
+| Suma con Numeros Negativos    | -2,3    | -5    |Pasó    |
+| Suma con Numeros Positivos | 2,3    | 5    |Pasó    |
