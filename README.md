@@ -75,21 +75,25 @@ Se asegura de que la función de resta retorne el valor correcto al restar un n�
 ## Multiplicacion Normal 
 
 Se asegura que la operacion basica de la multiplicacion funcione correctamente con los numeros positivos. Al multiplicar ambos numeros se espera obtener un resultado especifico. Se utilizara el metodo AsserEquals para comparar el resultado obtenido con el especificado anteriormente.
+
 ![image](https://github.com/DanielMateoOrellana/Taller-Junit/assets/136995519/a78a4021-4786-4edc-acd3-22ee4a154279)
 
 ## Multiplicacion entre Numeros positivos y negativos
 
 Se asegura que la operacion entre numeros negativos y positivos de la multiplicacion funcione correctamente. Al multiplicar ambos numeros (negativo y positivos) se espera obtener un resultado especifico. Se utilizara el metodo AsserEquals para comparar el resultado obtenido con el especificado anteriormente.
+
 ![image](https://github.com/DanielMateoOrellana/Taller-Junit/assets/136995519/bfb0c3e4-6480-4962-9445-827bfac116b4)
 
 ## Multiplicacion entre dos numeros negativos
 
 Se asegura que la operacion entre numeros negativos de la multiplicacion funcione correctamente. Al multiplicar ambos numeros(ambos negativos) se espera obtener un resultado especifico. Se utilizara el metodo AsserEquals para comparar el resultado obtenido con el especificado anteriormente.
+
 ![image](https://github.com/DanielMateoOrellana/Taller-Junit/assets/136995519/019bece4-aef4-4653-b95d-e8e00df5be4c)
 
 ## Multiplicacion por 0
 
 Se asegura que la operacion entre el numero cero y cualquier otro numero ya sea positivo o negativo funcione correctamente. Al multiplicar ambos numeros se espera obtener un resultado especifico. Se utilizara el metodo AsserEquals para comparar el resultado obtenido con el especificado anteriormente.
+
 ![image](https://github.com/DanielMateoOrellana/Taller-Junit/assets/136995519/15ea5b13-5c56-4cad-aaf4-bce242c32689)
 
 # Prueba Unitaria de la División 
